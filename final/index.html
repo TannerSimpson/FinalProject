@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="notesSimple.css">
+        <link rel="stylesheet" href="notesSimplePlus.css">
+        <title>NotesSimple</title>
+    </head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="images/Logo.png" width="50px" height="50px" alt="Logo Image">
+            <h1 class="title">NotesSimple</h1>
+        </div>
+    
+        <div class="account-section">
+            <img src="images/login.jpeg" width="35px" height="35px" alt="Account Image">
+            <a href="account.html" class="account-button">Account</a>
+        </div>
+    </header>
+
+    <div class="parallax home"><h3>Welcome to NotesSimple</h3></div>
+    <section class="content">
+        <div class="image-section">
+            <img src="images/student.webp" width="400px" height="300px" alt="Left Image">
+            <div class="text-section">
+                <h2>What is NotesSimple?</h2>
+                <p>NotesSimple is an innovative new app that allows students to actively record their lectures and automatically translate them to notes. The app is designed for students at any level that have access to technology in the classroom. The app uses voice to text technology to log every word that your proffessor says and then creates a transcript of the text. After you are done recording the lecture, the app will scan the entire text file and highlight key words or phrases and separate them into sections. It will then summarize the text and highlight key information that the proffessor emphasizes. A second document will then be produced that has all of your notes for the day in one place. </p>
+            </div>
+        </div>
+
+        <div class="image-section">
+            <div class="text-section">
+                <h2>How to use NotesSimple?</h2>
+                <p>First register with us by creating an account at the top of the page. After that you can access our technology by scrolling down. Here you are able to start recording your lectures and then using our features to translate into notes, key points, examples, etc. If you want access to more features we have NotesSimple+ which is a revised version of our technology that has access to new features such as advanced AI technology. You can access these features below as well after signing up and purchasing. Once you allow access to your microphone then you can beging by hitting the "being recording" button and move on from there. </p>
+            </div>
+            <img src="images/voice.webp" width="400px" height="300px" alt="Right Image">
+        </div>
+
+        <div class="secondtext-section">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/n8HbFgEKgS8?si=YGS7sxSJynTpnSie" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h2>To access the NotesSimple features scroll below.</h2>
+        </div>
+    </section>
+
+    <section class="parallax face">
+        <h3>NotesSimple</h3>
+        <h3><a class="down-arrow" href="#">&#8675;</a></h3>
+    </section>
+
+    <section class="recording-section">
+        <button id="startRecordingBtn">Begin Recording</button>
+        <input type="text" id="infoTextBox" placeholder="Recording..." readonly>
+        <p id="Lecture is now being recorded. "></p>
+    </section>
+
+    <section class="action-buttons">
+        <button id="saveVoiceRecordingBtn">Save Voice Recording</button>
+        <textarea id="notesTextArea" placeholder="Voice Recording link will be dsiplayed here. " readonly></textarea>
+        <button id="saveTextFileBtn">Translate to Text File</button>
+        <textarea id="notesTextArea" placeholder="Text file will be displayed here. " readonly></textarea>
+        <button id="createNotesBtn">Create Notes</button>
+        <textarea id="notesTextArea" placeholder="Notes will be displayed here. " readonly></textarea>
+        <button id="highlightKeyPointsBtn">Highlight Key Points</button>
+        <textarea id="notesTextArea" placeholder="Key points will be highlighted here. " readonly></textarea>
+        <button id="generateExamples">Generate Examples</button>
+        <textarea id="notesTextArea" placeholder="Image examples will be displayed here. " readonly></textarea>
+    </section>
+
+    <section class="parallax leash">
+        <h3>NotesSimple+</h3>
+        <h3><a class="down-arrow" href="#">&#8675;</a></h3>
+    </section>
+
+    <section class="two-column-layout">
+        <div class="left-column">
+            <img src="images/login.jpeg" width="200" height="200" alt="Left Image">
+            <h2>Login to your account:</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter your username">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter your password">
+
+            <h2>Enter payment information to upgrade:</h2>
+            <label for="cardinfo">Card Information: </label>
+            <input type="cardinfo" id="cardinfo" placeholder="XXXX-XXXX-XXXX-XXXX">
+        </div>
+
+        <div class="right-column">
+            <img src="images/plus.webp" width="300" height="400" alt="Right Image">
+            <h2>Benefits of NotesSimple+</h2>
+            <div id="list">
+                <li>Access to new features.</li>
+                <li>Unlimited amount of recordings.</li>
+                <li>New AI Generative technology.</li>
+                <li>Access to publicly posted notes.</li>
+                <li>Only $4.99 per month.</li>
+            </div>
+        </div>
+    </section>
+
+    <section class="action-buttons">
+        <label for="aiinput">Give a topic for AI to produce Notes: </label>
+        <input type="topic" id="topic" placeholder="Enter your topic">
+        <textarea id="notesTextArea" placeholder="AI notes will be dsiplayed here. " readonly></textarea>
+    
+        <div class="image-grid">
+            <div class="column">
+                <div class="image-container">
+                    <h4>Public notes 1</h4>
+                    <a href="https://docs.google.com/document/d/1gupKAdiPBodIfHQPVD1ltCKMHpBNhaM1uMpAQ1CgO2o/edit?usp=sharing">
+                        <img src="images/Notes1.png" alt="Image 1">
+                    </a>
+                </div>
+            </div>
+        
+            <div class="column">
+                <div class="image-container">
+                    <h4>Public notes 2</h4>
+                    <a href="https://docs.google.com/document/d/1gupKAdiPBodIfHQPVD1ltCKMHpBNhaM1uMpAQ1CgO2o/edit?usp=sharing">
+                        <img src="images/Notes2.png" alt="Image 2">
+                    </a>
+                </div>
+            </div>
+        
+            <div class="column">
+                <div class="image-container">
+                    <h4>Public notes 3</h4>
+                    <a href="https://docs.google.com/document/d/1gupKAdiPBodIfHQPVD1ltCKMHpBNhaM1uMpAQ1CgO2o/edit?usp=sharing">
+                        <img src="images/Notes3.png" alt="Image 3">
+                    </a>
+                </div>
+            </div>
+        
+            <div class="column">
+                <div class="image-container">
+                    <h4>Public notes 4</h4>
+                    <a href="https://docs.google.com/document/d/1gupKAdiPBodIfHQPVD1ltCKMHpBNhaM1uMpAQ1CgO2o/edit?usp=sharing">
+                        <img src="images/Notes4.png" alt="Image 4">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <nav class="toggle-bar">
+        <a href="contactUs.html"><button id="menu">Contact Us</button></a>
+        <a href="reviews.html"><button id="menu">Reviews</button></a>
+    </nav>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="reviews.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Leave a Review</title>
+</head>
+<body>
+
+<header>
+    <h1>Leave a review</h1>
+    <nav class="toggle-bar">
+        <a href="index.html"><button>Home</button></a>
+    </nav>
+</header>
+
+<button id="open-form">Leave a Review</button>
+
+<!-- The Modal -->
+<div id="dialog" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span id="close-button" class="w3-Button w3-display-topright">&times;</span>
+          
+        <div id="form-container" class="hidden">
+            <form id="add-edit-review-form" method="post">
+                <input type="hidden" name="_id" value="-1">
+                <p>
+                    <label for="name ">Your Name:</label>
+                    <input type="text" id="name" name="name" required />
+                </p>
+                <p>
+                    <label for="review">Review:</label>
+                    <input type="text" id="review" name="review" required />
+                </p>
+    
+                <section class="columns">
+                    <p id="img-prev-section">
+                        <img id="img-prev">
+                    </p>
+                    <p>
+                        <label for="img">Upload Image:</label>
+                        <input type="file" id="img" name="img" accept="image/*" />
+                    </p>
+                </section>
+                <p>
+                    <label for="rating ">Rating:</label>
+                    <input type="text" id="rating" name="rating" required />
+                </p>
+                <p>
+                    <label for="age ">Your Age:</label>
+                    <input type="text" id="age" name="age" required />
+                </p>
+                <p>
+                    <label for="occupation ">Occupation:</label>
+                    <input type="text" id="occupation" name="occupation" required />
+                </p>
+                <p>
+                    <label for="location ">Location:</label>
+                    <input type="text" id="location" name="location" required />
+                </p>
+                <p>
+                    <label for="date ">Date:</label>
+                    <input type="text" id="date" name="date" required />
+                </p>
+                <p id="comments">
+                    <label class="inline">comments:</label>
+                    <a href="#" id="add-comment">Add Comment</a>
+                    <section id="comment-boxes"></section>
+                </p>
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+            </form>
+        </div>
+
+        <div id="reviews-container"></div>
+    </div>
+  </div>   
+</div>
+
+
+<!--
+<div class="flex-container">
+    <section class="top-section">
+        <div class="left-column">
+            <h1>Leave a review: </h1>
+            <textarea placeholder="Type your review here"></textarea>
+        </div>
+        <div class="right-column">
+            <h1>Rate your experience:</h1>
+            <div class="star-rating">
+                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="bottom-section">
+        
+    </section>
+</div>-->
+
+<script src="script.js" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+[
+    {
+        "_id": 1,
+        "img_name": "profile1.webp",
+        "review": "Used this product for all of my classes and loved it!",
+        "rating": 5,
+        "name": "Ella Baker",
+        "age": 30,
+        "occupation": "Teacher",
+        "location": "New York",
+        "date": "2023-05-10",
+        "comments": ["Easy to use", "Great features", "Helped improve grades"]
+    },
+    {
+        "_id": 2,
+        "img_name": "profile2.webp",
+        "review": "Wouldn't have passed my Web Applications class without NotesSimple.",
+        "rating": 4,
+        "name": "John Smith",
+        "age": 20,
+        "occupation": "Student",
+        "location": "Florida",
+        "date": "2023-06-20",
+        "comments": ["Intuitive interface", "Responsive support team", "Seamless integration"]
+    },
+    {
+        "_id": 3,
+        "img_name": "profile3.webp",
+        "review": "Use this for every class!",
+        "rating": 5,
+        "name": "Mary Woods",
+        "age": 21,
+        "occupation": "Student",
+        "location": "Indiana",
+        "date": "2023-07-20",
+        "comments": ["Easy to use", "Great notes", "My kids love it"]
+    },
+    {
+        "_id": 4,
+        "img_name": "profile4.webp",
+        "review": "NotesSimple changed my life!",
+        "rating": 5,
+        "name": "Josh Maker",
+        "age": 22,
+        "occupation": "Student",
+        "location": "Virginia",
+        "date": "2021-08-08",
+        "comments": ["Rich text editing", "integration with cloud services", "powerful search functionality."]
+    },
+    {
+        "_id": 5,
+        "img_name": "profile10.jpeg",
+        "review": "Simple and effective",
+        "rating": 5,
+        "name": "Liz Jane",
+        "age": 25,
+        "occupation": "Finance",
+        "location": "Nevada",
+        "date": "2023-05-13",
+        "comments": ["Collaboration features", "reminders and notifications", "reliable offline access."]
+    },
+    {
+        "_id": 6,
+        "img_name": "profile6.webp",
+        "review": "Used NotesSimple for all of my coding classes.",
+        "rating": 4,
+        "name": "Jake Miller",
+        "age": 19,
+        "occupation": "Student",
+        "location": "California",
+        "date": "2023-12-20",
+        "comments": ["Cross-platform support", "robust security features", "customizable themes and layouts."]
+    },
+    {
+        "_id": 7,
+        "img_name": "profile7.webp",
+        "review": "The AI features are great.",
+        "rating": 3,
+        "name": "Jill Johnson",
+        "age": 28,
+        "occupation": "Software Developer",
+        "location": "D.C.",
+        "date": "2023-04-23",
+        "comments": ["Integration with productivity tools", "backup and version history", "regular updates and improvements."]
+    },
+    {
+        "_id": 8,
+        "img_name": "profile8.webp",
+        "review": "Reccomended this app to all of my friends.",
+        "rating": 5,
+        "name": "Ava Lynch",
+        "age": 31,
+        "occupation": "Entreprenuer",
+        "location": "New york",
+        "date": "2022-07-20",
+        "comments": ["Sleek design", "seamless cloud integration", "intuitive search functionality."]
+    }
+    
+]

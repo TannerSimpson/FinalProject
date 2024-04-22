@@ -1,0 +1,76 @@
+:root {
+    --square-top: 0px;
+    --background-color: #4654be;
+    --primary-color: #DAA520;
+    --secondary-color: #ffffff;
+    --third-color: #ffffffb8;
+    --gray-color: rgb(63, 93, 146);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--gray-color);
+    color: var(--primary-color);
+}
+
+.toggle-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--gray-color);
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 5px;
+    width: 600px;
+}
+
+.account-section {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.account-input-section {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.submitted-info-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.submitted-info-item {
+    margin-bottom: 10px;
+}

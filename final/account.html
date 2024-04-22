@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="account.css">
+    <title>Account</title>
+</head>
+<body>
+    <header>
+        <h1>Account</h1>
+        <nav class="toggle-bar">
+            <a href="index.html"><button>Home</button></a>
+        </nav>
+    </header>
+
+    <section class="account-section">
+        <img src="images/login.jpeg" width="200px" height="200px" alt= "Account Image">
+
+        <div class="account-input-section">
+            <div class="account-input-section">
+                <form id="accountForm">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" placeholder="Enter your first name" required>
+        
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" placeholder="Enter your last name" required>
+        
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" placeholder="Enter your username" required>
+        
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+        
+                    <label for="school">School/University:</label>
+                    <input type="text" id="school" placeholder="Enter your school/university" required>
+        
+                    <label for="gradeLevel">Grade Level:</label>
+                    <select id="gradeLevel" required>
+                        <option value="K-12">K-12</option>
+                        <option value="Freshman">Freshman</option>
+                        <option value="Sophomore">Sophomore</option>
+                        <option value="Junior">Junior</option>
+                        <option value="Senior">Senior</option>
+                        <option value="PostGrade">PostGrade</option>
+                    </select>
+        
+                    <button type="submit">Submit</button>
+                </form>
+                <p id="successMessage" style="display: none; color: green;">Submission successful!</p>
+            </div>
+        
+            <div id="submittedInfoContainer" class="submitted-info-container">
+                
+            </div>
+        
+            <script src="account.js"></script>
+        </div>
+    </section>
+</body>
+</html>

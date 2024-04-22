@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="contactUs.css">
+    <title>Contact Us</title>
+</head>
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+    <nav class="toggle-bar">
+        <a href="index.html"><button>Home</button></a>
+    </nav>
+</header>
+
+<div class="flex-container">
+    <div class="content">
+        <h1>Fill out the form below to get in contact with us</h1>
+
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="4218007d-4a67-4297-a167-1359e897b5ea"/>
+
+          <p>
+            <label for="name">Name:</label>
+            <input
+              id="name"
+              type="text"
+              placeholder="first and last"
+              name="name"
+              required
+            />
+          </p>
+          <p>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="example@email.com" name="email" required/>
+          </p>
+          <p>
+            <label for="reason">Reason:</label>
+            <select name="reason">
+                <option value="general">General Inquiry</option>
+                <option value="technical">Technical Support</option>
+                <option value="billing">Billing Issue</option>
+                <option value="other">Other</option>
+              </select>
+          </p>
+          <p>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Enter further details here" required></textarea>
+          </p>
+          <input
+            type="hidden"
+            name="redirect"
+            value="https://web3forms.com/success"
+          />
+          <input
+            type="hidden"
+            name="subject"
+            value="Contact from NotesSimple"
+          />
+          <input type="hidden" name="from_name" value="My Website" />
+
+          <p>
+            <button type="submit">Submit Form</button>
+          </p>
+
+          <p id="result"></p>
+        </form>
+    </div>
+
+</div>
+<script src="contactForm.js"></script>
+</body>
+</html>

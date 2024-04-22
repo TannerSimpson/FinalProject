@@ -1,0 +1,35 @@
+:root {
+    --square-top: 0px;
+    --background-color: #4654be;
+    --primary-color: #DAA520;
+    --secondary-color: #ffffff;
+    --third-color: #ffffffb8;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.two-column-layout {
+    display: flex;
+}
+
+.left-column, .right-column {
+    width: 50%;
+    padding: 20px;
+}
+
+div {
+    text-align: center;
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,33 @@
+:root {
+    --square-top: 0px;
+    --background-color: #4654be;
+    --primary-color: #DAA520;
+    --secondary-color: #ffffff;
+    --third-color: #ffffffb8;
+}
+
+.recording-section {
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#infoTextBox {
+    margin-top: 10px;
+}
+
+.action-buttons {
+    text-align: center;
+    margin: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
