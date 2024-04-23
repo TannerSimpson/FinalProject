@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="account.css" />
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        </head>
+
+    <body>
+    <header>
+        <nav class="toggle-bar">
+            <a href="index.html"><button>Home</button></a>
+        </nav>  
+        <h1>Create an Account <a href="#" id="add-link">+</a></h1>     
+    </header>
+
+
+    <div id="account-list" class="columns"></div>
+    
+      <div id="dialog" class="w3-modal">
+        <div class="w3-modal-content">
+          <div class="w3-container">
+            <span onclick="document.getElementById('dialog').style.display='none'"class="w3-button w3-display-topright">&times;</span>
+              <section id="dialog-details">
+                <form id="account-form" method="post" class="hidden">
+                    <input type="hidden" id="_id" name="_id">
+                    <p>
+                        <label for="name ">First Name:</label>
+                        <input type="text" id="name" name="name" required />
+                    </p>
+                    <p>
+                        <label for="nameLast ">Last Name:</label>
+                        <input type="text" id="nameLast" name="nameLast" required />
+                    </p>
+                    <p>
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required />
+                    </p>
+                    <p>
+                        <label for="password">Password:</label>
+                        <input type="text" id="password" name="password" required />
+                    </p>
+                    <section class="columns">
+                        <p id="img-prev-section">
+                            <img id="img-prev">
+                        </p>
+                        <p>
+                            <label for="img">Profile picture:</label>
+                            <input type="file" id="img" name="img" accept="image/*" />
+                        </p>
+                    </section>
+                    <p>
+                        <label for="school">School/University:</label>
+                        <input type="text" id="school" name="school" required />
+                    </p>
+                    <p id="useage-p">
+                        <label class="inline">What will you be using our app for:</label>
+                        <a href="#" id="add-useage">Add</a>
+                        <section id="useage-boxes"></section>
+                    </p>
+                    <p>
+                        <button type="submit">Submit</button>
+                    </p>
+                </form>
+
+                <section id="account-details" class="hidden">
+
+                </section>
+            </section>
+          </div>
+        </div>
+      </div>   
+    </div>
+    <script src="account.js"></script>
+    </body>
+
+</html>

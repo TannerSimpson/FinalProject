@@ -1,0 +1,12 @@
+[
+    {
+        "_id": 1,
+        "name": "Tanner",
+        "nameLast": "Simpson",
+        "username": "TannerSimpson",
+        "password": "blank",
+        "img": "profile1.webp",
+        "school": "South Carolina",
+        "useages": ["Easy to use", "Great features", "Helped improve grades"]
+    }
+]
